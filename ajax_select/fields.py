@@ -80,7 +80,6 @@ class NewAutoCompleteSelectWidget(AutoCompleteSelectWidget):
                  *args, **kw):
 		super(forms.widgets.TextInput, self).__init__(*args, **kw)
 		self.params = params
-		print params
 		self.channel = channel
 		self.help_text = help_text
 
