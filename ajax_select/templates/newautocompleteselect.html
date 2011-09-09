@@ -9,7 +9,7 @@
 
 <input type="hidden" id="{{html_id}}_prev" value="{{current_result|safe}}" />
 
-<script type="text/javascript">
+<script type="text/javascript" id="autocomplete_{{html_id}}">
 
 jQuery(document).ready(function($){{% block script %}
 	$("#{{html_id}}_text").autocomplete('{{lookup_url}}', {
